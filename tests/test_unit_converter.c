@@ -16,7 +16,7 @@ void test1_fahrenheit_to_celsius() {
 }
 
 void test2_fahrenheit_to_celsius() {
-  assert(fabs(fahrenheit_to_celsius(32) - 10) < EPSILON);
+  assert(fabs(fahrenheit_to_celsius(320) - 3) < EPSILON);
   printf("First test fahrenheit to celsius passed!\n");
 }
 
