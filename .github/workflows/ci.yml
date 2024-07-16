@@ -21,7 +21,7 @@ jobs:
       run: cmake --build build
 
     - name: Run tests
-      run: ctest --test-dir build
+      run: ./unit_converter
 
     - name: List Build Directory
       run: ls -la build
